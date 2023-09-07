@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="menu">
+            <input type="checkbox" id="check">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/img/logo_eleksans.png" alt="" class="logo_img">
+                </a>
+            </div>
+            <ul>
+                <label class="btn cancel">
+                    <i class="fa fa-close"></i>
+                </label>
+                <li>
+                    <a href="index.html" class="lang" key="home" for="check">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="lang" key="about">About</a>
+                </li>
+                <li>
+                    <!-- <a href="#projects" class="lang" key="projects">Projects</a> -->
+                <li>
+                    <a href="#services" class="lang" key="services">Services</a>
+                </li>
+                </li>
+                <li>
+                    <a href="#projects" class="lang" key="projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#news" class="lang" key="news">News</a>
+                </li>
+
+                <li>
+                    <a href="#contacts" class="lang" key="contacts">Contact</a>
+                </li>
+                <li>
+                    <a href="#documents" class="lang" key="documents">Documents</a>
+                </li>
+                <div class="language_container">
+                    <a class="lang-button active_lang lang_border" data-lang="en">RU</a>
+                    <a class="lang-button" data-lang="ru">EN</a>
+                </div>
+            </ul>
+            <label for="check" class="btn bars">
+                <i class="fa fa-bars"></i>
+            </label>
+        </div>
+        </div>
+    </nav>
+        <!-- Content -->
+    <div class="service_dtl">
+        <div class="service_drl_container">
+            <div class="service_dtl_block">
+                <h1 class="service_dtl_title">Bizga qoshiling Lorem ipsum dolor sit amet</h1>
+                <img src="assets/img/about_eleksan_info.png" alt=""  class="service_dtl_block_img">
+                <div class="service_dtl_title_text_block">
+                    <p class="service_dtl_title_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto quas deleniti, suscipit eos optio, sit beatae praesentium nisi in expedita rem ipsum
+                        excepturi dignissimos, consectetur pariatur nostrum! Quasi, dicta cumque!</p>
+                    <p class="service_dtl_title_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto quas deleniti, suscipit eos optio, sit beatae praesentium nisi in expedita rem ipsum
+                        excepturi dignissimos, consectetur pariatur nostrum! Quasi, dicta cumque!</p>
+                    <p class="service_dtl_title_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto quas deleniti, suscipit eos optio, sit beatae praesentium nisi in expedita rem ipsum
+                        excepturi dignissimos, consectetur pariatur nostrum! Quasi, dicta cumque!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- From -->
+    <div class="lead_form" id="contacts">
+        <h4 class="container_title lead_form_title">
+            <span class="lang" key="lead_form_title1">Qandaydur savol tug'ildimi?</span>
+            <br>
+            <span class="lang" key="lead_form_title2">Bizga raqamingizni jonating va biz siz bilan tez orada </span>
+            <br>
+            <span class="lang" key="lead_form_title3">bog'lanamiz!</span>
+        </h4>
+        <div class="form_container">
+            <form id="myForm" class="consultation_send_form" method="POST">
+                <input type="text" name="name" id="name" class="consultation_input" required value
+                    placeholder="Ваше имя">
+                <input type="number" id="tel" class="consultation_input" name="tildaspec-phone-part[]" value=""
+                    placeholder="99-999-9999" data-phonemask-iso="uz" data-phonemask-code="+998"
+                    data-phonemask-mask="+998-9-999-9999" maxlength="11" data-phonemask-without-code="99-999-9999"
+                    data-phonemask-current="4-444-44444">
+                <!-- <input
+            type="text"
+            name="name"
+            id="name"
+            class="consultation_input"
+            required
+            value
+            placeholder="Ваше имя"
+        > -->
+                <button type="submit" class="consultation_send_button lang" key="consultation_send_button">Send</button>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="map_contact" id="contact">
+            <div class="contact">
+                <div class="contact_container">
+                    <h2 class="contact_title lang" key="contact">Контакты</h2>
+                    <p class="contact_phone">+998 (90) 9353500</p>
+                    <p class="contact_phone contact_phone_two">+998 (95) 5253333</p>
+                    <div class="card_text lang" style="margin-top: 20px;" key="job_time"></div>
+                    <!-- <div class="card_text lang"style="margin-top:5px" key="card3_text2"></div> -->
+                </div>
+            </div>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11993.127372277515!2d69.2414714!3d41.2809701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b3e88465031%3A0x4ddf080c5c96d4fd!2sDr%20Chiropractor!5e0!3m2!1sru!2s!4v1683441445624!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2995.2365461978293!2d69.33311807605763!3d41.34721197130498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIwJzUwLjAiTiA2OcKwMjAnMDguNSJF!5e0!3m2!1sru!2sru!4v1694062681025!5m2!1sru!2sru"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.6212682740415!2d69.29550927581188!3d41.382312496310384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae894748adabdf%3A0xf21bdc3a96777d72!2sBRIGHT%20MEDIA!5e0!3m2!1sru!2s!4v1688750477145!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        </div>
+        <div class="footer">
+            <div class=" footer_container">
+                <div class="footer_logo">
+                    <img src="assets/img/logo_eleksans_footer.png" alt="" class="footer_logo_img">
+                </div>
+                <p class="footer_date">© 2023 eleksan.uz</p>
+                <div class="social_network">
+                    <a href="https://t.me/marketing3500" class="social_network_icon"><i class="fab fa-telegram"></i></a>
+                    <a href="https://instagram.com/bright_consulting_uz?igshid=MzRlODBiNWFlZA=="
+                        class="social_network_icon"><i class="fab fa-instagram"></i></a>
+                    <!-- <a href="https://www.facebook.com/terapiyamarkazi?mibextid=LQQJ4d" class="social_network_icon">
+                        <i class="fab fa-facebook-f"></i></a> -->
+                    <!-- <a href="https://youtube.com/@dr.chiropractortv" class="social_network_icon"><i class="fab fa-youtube"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="powered_by">
+        <div class="powered_by_text">
+            <P>© 2023 Powered by</P>
+            <a href="cmd-tech.uz"> CMD TECH</a>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
